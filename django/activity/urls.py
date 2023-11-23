@@ -16,12 +16,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-#from PRUEBA.views import hello, about
+from PRUEBA.views import link01
 #from PRUEBA import views  (otra manera de importar)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('PRUEBA.urls')),
+    path('', link01),
     #path('se pone vacio por que no lleva nada antes que el "urls de la app" ', include('PRUEBA.urls')),
     #path('', hello),
     #path('about/', about),
