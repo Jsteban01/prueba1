@@ -116,7 +116,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
-STATIC_URL = '/jsteban/prueba1/django/PRUEBA/static/'
+STATIC_URL = '/jsteban01/prueba1/django/PRUEBA/static/'
 
 #STATIC_ROOT = "http://static.example.com/"
 STATICFILES_DIRS = (os.path.join(BASE_DIR, 'PRUEBA/static'),)
